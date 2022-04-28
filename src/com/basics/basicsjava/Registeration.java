@@ -1,4 +1,4 @@
-package com.basicsjava;
+package com.basics.basicsjava;
 
 public class Registeration {
     int registerNo=100;// Datatype varaiablename
