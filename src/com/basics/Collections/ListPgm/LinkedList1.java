@@ -6,17 +6,14 @@ import java.util.List;
 import java.util.Scanner;
 
 public class LinkedList1 {
+     String s1="NewGen";
     String name;
     Scanner S=new Scanner(System.in);
     List<String> StudentName1=new LinkedList<String>();
     void getData()
     {
-        System.out.println("Enter the No of Student U want to Add");
-        int size=S.nextInt();
-        for(int i=0;i<size;i++)
-        {
-            StudentName1.add(S.next());
-        }
+        s1.concat(" Software");
+        System.out.println(s1);
     }
     void printData()
     {
@@ -31,5 +28,8 @@ public class LinkedList1 {
         LinkedList1 al1=new LinkedList1();
         al1.getData();
         al1.printData();
+
+
+
     }
 }
